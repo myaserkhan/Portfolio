@@ -69,7 +69,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 58px;
   height: min-content;
   left: 0;
   padding: 64px 24px;
@@ -82,9 +81,8 @@
   font-family: sans-serif;
   font-size: 40px;
   font-weight: 700;
-  height: 192px;
-  letter-spacing: 0;
   line-height: 52px;
+  letter-spacing: 0;
   margin-top: -1px;
   text-align: center;
   width: 327px;
@@ -103,15 +101,25 @@
   color: rgba(23, 43, 77, 1);
   font-family: sans-serif;
   font-size: 20px;
-  font-weight: 400px;
-  height: 164px;
+  font-weight: 400;
   letter-spacing: 0;
   line-height: 28px;
   text-align: center;
   width: 327px;
+  height: 164px;
 }
 
 .social-media-icons {
-  height: 20px;
-  min-width: 170px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 1em;
+}
+
+li a {
+  padding-left: 1em;
+}
+
+ul {
+  list-style-type: none;
 }
