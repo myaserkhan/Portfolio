@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# Portfolio
 
-> This is my first repository in the microverse technical curriculum.
+> This project is a first milestone in the process of creating my personal portfolio website.
 
 
 ## Built With
@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-https://myaserkhan.github.io/Hello-world/
+https://myaserkhan.github.io/Portfolio/
 
 
 ## Getting Started
@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 - open a terminal
-- run `git clone git@github.com:MYaserKhan/Hello-world.git`
+- run `git@github.com:MYaserKhan/Portfolio.git`
 - run `cd Hello-world`
 - open index.html
 
