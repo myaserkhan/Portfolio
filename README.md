@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Portfolio: setup and mobile first
 
 > This project is a first milestone in the process of creating my personal portfolio website.
 
