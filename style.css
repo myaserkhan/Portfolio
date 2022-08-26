@@ -247,10 +247,6 @@ a {
   background-repeat: no-repeat;
 }
 
-.about-content > * {
-  margin: 1em 0;
-}
-
 .about-content-h2 {
   font-weight: 700;
   font-size: 40px;
@@ -258,9 +254,10 @@ a {
   height: 48px;
   color: #172b4d;
   font-family: sans-serif;
+  margin: 1em;
 }
 
-.about-content {
+.about-content-p {
   color: #42526e;
   font-size: 20px;
   font-weight: 400;
