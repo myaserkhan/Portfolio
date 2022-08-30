@@ -346,7 +346,7 @@ a {
   align-items: center;
 }
 
-.contact-form fieldset {
+fieldset {
   display: flex;
   flex-direction: column;
   border: none;
