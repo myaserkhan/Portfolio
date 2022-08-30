@@ -105,7 +105,7 @@
 }
 
 .socials {
-  margin: 2rem 0;
+  margin: 1rem 0;
   display: flex;
   list-style: none;
   justify-content: center;
@@ -306,6 +306,127 @@ a {
   padding: 8px;
   border-radius: 8px;
   background: #fff;
+}
+
+/* Contact section styles */
+
+.contact-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-text {
+  padding: 20px;
+  margin: 10px 5px;
+}
+
+.contact-text-h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  font-family: sans-serif;
+}
+
+.shimmer {
+  transition: transform 2s;
+}
+
+.shimmer:hover {
+  transform: translate(10px);
+}
+
+.contact-form {
+  margin: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.contact-form input {
+  margin: 10px 5px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  min-width: 327px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #6b778c;
+  padding: 15px 16px;
+}
+
+.contact-form textarea {
+  margin: 10px 0;
+  background: #fff;
+  color: #091e42;
+  border: 1px solid #36b37f;
+  padding: 0;
+  border-radius: 4px;
+  min-width: 327px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  width: 99%;
+}
+
+.submit-btn {
+  margin: 10px 5px;
+}
+
+/* Form styles */
+.form-field.error input {
+  border-color: #ff6163;
+}
+
+.form-field.success input {
+  border-color: #28a745;
+}
+
+small {
+  color: #ff6163;
+}
+
+/* Footer Section */
+.footer {
+  width: 100%;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-email {
+  text-align: center;
+}
+
+.contact-email-p {
+  font-size: 18px;
+  line-height: 5px;
+  text-align: center;
+  color: #42526e;
+  font-family: sans-serif;
+}
+
+.footer-image {
+  width: 134px;
+  padding-top: 10em;
+  margin: 0 auto;
 }
 
 html,
