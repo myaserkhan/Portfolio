@@ -329,6 +329,7 @@ a {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+  font-family: sans-serif;
 }
 
 .shimmer {
@@ -370,11 +371,11 @@ fieldset {
 }
 
 .contact-form textarea {
-  margin: 10px 5px;
+  margin: 10px 0px;
   background: #fff;
   color: #091e42;
   border: 1px solid #36b37f;
-  padding: 12px;
+  padding: 0px;
   border-radius: 4px;
   min-width: 327px;
   font-size: 15px;
