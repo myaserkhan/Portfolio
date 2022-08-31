@@ -1,62 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/optprime/image/upload/v1652981548/project-screenshots/desktop_hgjhlw.png"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--Social Media Icons-->
+    <script
+      src="https://kit.fontawesome.com/bc719f0ade.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Yasir's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="app-bar">
-        <div class="logo-placeholder">
-            <a class="place valign-text-middle">Welcome</a>
-        </div>
-        <div class="normal-button">
-            <nav class="icons-icon">
-                <img class="union-2" src="img/union-2.svg" alt="menu icon">
-            </nav>
-        </div>
-    </header>
-    <section class="headline">
-            <h1 class="primary">Hey there. I'm Yasir <br></h1><br>
-            <p class="primary span1">I'm a Software Developer</p><br>
-        <p class="supporting-text">
-            I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-            don’t hesitate to contact me.
-        </p><br><br>
-        <ul class="socials">
-            <li class="social-link"><a href="#"> <img src="img/twitter.svg" alt="twitter" /> </a></li>
-            <li class="social-link"><a href="#"> <img src="img/Linkedin.svg" alt="twitter" /> </a></li>
-            <li class="social-link"><a href="#"> <img src="img/medium.svg" alt="twitter" /> </a></li>
-            <li class="social-link"><a href="#"> <img src="img/github.svg" alt="twitter" /> </a></li>
-            <li class="social-link"><a href="#"> <img src="img/angellist.svg" alt="twitter" /> </a></li>
+  </head>
+  <body>
+    <!--Header section-->
+    <header class="top">
+      <nav class="web-nav">
+        <ul class="web-header-menu">
+          <li>
+            <a href="#portfolio" class="web-header-link">portfolio</a>
+          </li>
+          <li>
+            <a href="#about" class="web-header-link">about</a>
+          </li>
+          <li>
+            <a href="#contact" class="web-header-link">contact</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="mobile-header-nav">
+        <a href="#" class="logo-text"><span>Welcome</span></a>
+        <ul class="mobile-header-menu">
+          <li class="menu">
+            <a href="#"
+              ><i
+                class="fa-solid fa-bars open-modal"
+                data-open="nav-modal"
+                id="mobile-menu"
+              ></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="modal" id="nav-modal" data-animation="slideInOutLeft">
+        <div class="modal-dialog">
+          <button
+            type="button"
+            class="close-modal"
+            aria-label="close modal"
+            id="close-menu"
+            data-close
+          >
+            ✕
+          </button>
+          <ul class="modal-nav-links">
+            <li>
+              <a href="#portfolio" class="web-header-link">portfolio</a>
+            </li>
+            <li>
+              <a href="#about" class="web-header-link">about</a>
+            </li>
+            <li>
+              <a href="#contact" class="web-header-link">contact</a>
+            </li>
           </ul>
-        <div class="action-1">
-            <div class="normal-button-secondary">
-                <div class="icons-icon">
-                    <a href="#"><img class="union" src="img/Action.png" alt="drop down" /></a>
-                </div>
-            </div>
         </div>
-    </section>
-    <section class="works" id="portfolio">
+        <img
+          src="./assets/Shape.png"
+          alt="bottom bar"
+          class="modal-footer-image"
+        />
+      </div>
+    </header>
+    <main class="wrapper">
+      <!--Hero section-->
+      <section class="content">
+        <div class="hero">
+          <div class="hero-content">
+            <h1>
+              Hey there. I'm Yasir <br />
+              <span>I'm a software developer</span>
+            </h1>
+            <p class="shimmer">
+              I can help you build a product , feature or website Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don't hestiate to contact me.
+            </p>
+            <div class="socials">
+              <ul>
+                <li class="social-link">
+                  <a href="https://twitter.com/khanyaser007"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="social-link">
+                  <a
+                    href="https://www.linkedin.com/in/yasir-khan-398229195/"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li class="social-link">
+                  <a href="#"><i class="fa-solid fa-m"></i></a>
+                </li>
+                <li class="social-link">
+                  <a href="https://github.com/MYaserKhan"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                </li>
+                <li class="social-link">
+                  <a href="#"><i class="fa-brands fa-angellist"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="action">
+              <a href="#portfolio"><i class="fa-solid fa-chevron-down"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Works section-->
+      <section class="works" id="portfolio">
         <div class="projects-wrapper">
           <div class="works-header">
-            <h2>My Recent Projects</h2>
-            <img src="img/indicator.png" alt="">
+            <h1>My Recent Projects</h1>
+            <img src="./assets/Indicator.png" alt="" />
           </div>
           <div class="works-wrapper">
             <div class="work-tile">
-                <img class="work-image" src="img/imgplace.png" alt="My first project">
+              <div class="work-image">
+                <img
+                  src="assets/imgplace.png"
+                  alt="My first project"
+                />
+              </div>
               <div class="work-content">
                 <div class="work-title">
                   <h3>Multi-post Stories Gain+Glory</h3>
                 </div>
                 <div class="work-tags">
-                  <ul class="work-tags">
+                  <ul>
                     <li class="social">
-                      <a href="#">Ruby on Rails</a>
+                      <a href="#">html</a>
                     </li>
                     <li class="social">
                       <a href="#">css</a>
@@ -65,56 +160,76 @@
                       <a href="#">Javascript</a>
                     </li>
                     <li class="social">
-                      <a href="#">html</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="work-button">
-                  <button class="btn open-modal" data-open="project6" type="button">
-                    See Project
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="work-tile">
-                <img class="work-image" src="img/imgplace.png" alt="Book Library Project">
-              <div class="work-content">
-                <div class="work-title">
-                  <h3>Multi-post Stories Gain+Glory</h3>
-                </div>
-                <div class="work-tags">
-                  <ul class="work-tags">
-                    <li class="social">
-                      <a href="#">html</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">CSS</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">Javascript</a>
-                    </li>
-                    <li class="social">
                       <a href="#">Ruby on Rails</a>
                     </li>
                   </ul>
                 </div>
                 <div class="work-button">
-                  <button class="btn open-modal" data-open="project1" type="button">
+                  <button
+                    onclick="modal(5)"
+                    class="btn open-modal"
+                    data-open="project6"
+                    type="button"
+                  >
                     See Project
                   </button>
                 </div>
               </div>
             </div>
             <div class="work-tile">
-                <img class="work-image" src="img/imgplace.png" alt="Recipes ">
+              <div class="work-image">
+                <img
+                  src="assets/imgplace.png"
+                  alt="Book Library Project"
+                />
+              </div>
               <div class="work-content">
                 <div class="work-title">
                   <h3>Multi-post Stories Gain+Glory</h3>
                 </div>
                 <div class="work-tags">
-                  <ul class="work-tags">
+                  <ul>
                     <li class="social">
-                      <a href="#">Html</a>
+                      <a href="#">Ruby</a>
+                    </li>
+                    <li class="social">
+                      <a href="#">Rails</a>
+                    </li>
+                    <li class="social">
+                      <a href="#">Javascript</a>
+                    </li>
+                    <li class="social">
+                      <a href="#">Bootstrap</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="work-button">
+                  <button
+                    onclick="modal(0)"
+                    class="btn open-modal"
+                    data-open="project1"
+                    type="button"
+                  >
+                    See Project
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="work-tile">
+              <div class="work-image">
+                <img
+                  src="assets/imgplace.png"
+                  alt="Recipes "
+                />
+              </div>
+              <div class="work-content">
+                <div class="work-title">
+                  <h3>Multi-post Stories Gain+Glory</h3>
+                </div>
+                <div class="work-tags">
+                  <ul>
+                    <li class="social">
+                      <a href="#">Bootstrap</a>
                     </li>
                     <li class="social">
                       <a href="#">CSS3</a>
@@ -128,78 +243,69 @@
                   </ul>
                 </div>
                 <div class="work-button">
-                  <button class="btn open-modal" data-open="project4" type="button">
+                  <button
+                    onclick="modal(3)"
+                    class="btn open-modal"
+                    data-open="project4"
+                    type="button"
+                  >
                     See Project
                   </button>
                 </div>
               </div>
             </div>
             <div class="work-tile">
-                <img class="work-image" src="img/imgplace.png" alt="React Personal Profile">
-              <div class="work-content">
-                <div class="work-title">
-                  <h3>Multi-post Stories Gain+Glory</h3>
-                </div>
-                <div class="work-tags">
-                  <ul class="work-tags">
-                    <li class="social">
-                      <a href="#">Ruby on Rails</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">html</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">css</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">Javascript</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="work-button">
-                  <button class="btn open-modal" data-open="project2" type="button">
-                    See Project
-                  </button>
-                </div>
+              <div class="work-image">
+                <img
+                  src="assets/imgplace.png"
+                  alt="React Personal Profile"
+                />
               </div>
-            </div>
-            <div class="work-tile">
-                <img class="work-image" src="img/imgplace.png" alt="F1 Sustainability Summit">
               <div class="work-content">
                 <div class="work-title">
                   <h3>Multi-post Stories Gain+Glory</h3>
                 </div>
                 <div class="work-tags">
-                  <ul class="work-tags">
+                  <ul>
                     <li class="social">
-                      <a href="#">html</a>
+                      <a href="#">React</a>
                     </li>
                     <li class="social">
-                      <a href="#">CSS</a>
+                      <a href="#">SCSS</a>
                     </li>
                     <li class="social">
                       <a href="#">Javascript</a>
                     </li>
                     <li class="social">
-                      <a href="#">Ruby on Rails</a>
+                      <a href="#">RoR</a>
                     </li>
                   </ul>
                 </div>
                 <div class="work-button">
-                  <button class="btn open-modal" data-open="project3" type="button">
+                  <button
+                    onclick="modal(1)"
+                    class="btn open-modal"
+                    data-open="project2"
+                    type="button"
+                  >
                     See Project
                   </button>
                 </div>
               </div>
             </div>
             <div class="work-tile">
-                <img class="work-image" src="img/imgplace.png" alt="My first project">
+              <div class="work-image">
+                <img
+                  src="assets/imgplace.png"
+                  alt="F1 Sustainability Summit"
+                />
+              </div>
               <div class="work-content">
                 <div class="work-title">
                   <h3>Multi-post Stories Gain+Glory</h3>
                 </div>
                 <div class="work-tags">
-                  <ul class="work-tags">
+                  <ul>
                     <li class="social">
                       <a href="#">html</a>
                     </li>
@@ -210,12 +316,56 @@
                       <a href="#">Javascript</a>
                     </li>
                     <li class="social">
-                      <a href="#">Ruby on rails</a>
+                      <a href="#">RoR</a>
                     </li>
                   </ul>
                 </div>
                 <div class="work-button">
-                  <button class="btn open-modal" data-open="project5" type="button">
+                  <button
+                    onclick="modal(2)"
+                    class="btn open-modal"
+                    data-open="project3"
+                    type="button"
+                  >
+                    See Project
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="work-tile">
+              <div class="work-image">
+                <img
+                  src="assets/imgplace.png"
+                  alt="My first project"
+                />
+              </div>
+              <div class="work-content">
+                <div class="work-title">
+                  <h3>Multi-post Stories Gain+Glory</h3>
+                </div>
+                <div class="work-tags">
+                  <ul>
+                    <li class="social">
+                      <a href="#">html</a>
+                    </li>
+                    <li class="social">
+                      <a href="#">React</a>
+                    </li>
+                    <li class="social">
+                      <a href="#">Ruby</a>
+                    </li>
+                    <li class="social">
+                      <a href="#">Rails</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="work-button">
+                  <button
+                    onclick="modal(4)"
+                    class="btn open-modal"
+                    data-open="project5"
+                    type="button"
+                  >
                     See Project
                   </button>
                 </div>
@@ -223,140 +373,183 @@
             </div>
           </div>
         </div>
-    </section>
-    <section class="about" id="about">
-      <div class="about-wrapper">
-        <div class="about-content">
-          <h2 class="about-content-h2">About me</h2>
-          <p class="about-content-p">
-            I can help you build a product, feature, or website Look through
-            some of my work and experience! If you like what you see and have
-            a project you need coded, don't hestiate to contact me.
-          </p><br>
-          <button class="btn my-resume" type="button">Get my resume</button>
-        </div>
-        <div class="about-skills-wrapper">
-          <div class="about-skill">
-            <div class="skill-icon">
-              <img src="./img/icon-languages.png" alt="Languages">
+      </section>
+      <!--About me section-->
+      <section class="about" id="about">
+        <div class="about-wrapper">
+          <div class="about-content">
+            <h2>About me</h2>
+            <p class="shimmer">
+              I can help you build a product, feature, or website Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don't hestiate to contact me.
+            </p>
+            <button class="btn my-resume" type="button">Get my resume</button>
+          </div>
+          <div class="about-skills-wrapper">
+            <div class="about-skill">
+              <div class="skill-icon">
+                <img src="./assets/icon-languages.png" alt="Languages" />
+              </div>
+              <h3>Languages</h3>
+              <div class="work-tags">
+                <ul>
+                  <li class="social skill-social">
+                    <a href="#">HTML</a>
+                  </li>
+                  <li class="social skill-social">
+                    <a href="#">Ruby</a>
+                  </li>
+                  <li class="social skill-social">
+                    <a href="#">Javascript</a>
+                  </li>
+                  <li class="social skill-social">
+                    <a href="#">Typescript</a>
+                  </li>
+                  <li class="social skill-social">
+                    <a href="#">CSS</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <h3>Languages</h3><br>
-            <div class="work-tags">
-              <ul class="work-tags">
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">Javascript</a>
-                </li>
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">Ruby on Rails</a>
-                </li>
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">HTML</a>
-                </li>
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">Css</a>
-                </li>
-              </ul>
+            <div class="about-skill">
+              <div class="skill-icon">
+                <img src="./assets/icon-frameworks.png" alt="Frameworks" />
+              </div>
+              <h3>Frameworks</h3>
+              <div class="work-tags">
+                <ul>
+                  <li class="social skill-social">
+                    <a href="#">NodeJS</a>
+                  </li>
+                  <li class="social skill-social">
+                    <a href="#">Ruby on Rails</a>
+                  </li>
+                  <li class="social skill-social">
+                    <a href="#">ReactJS</a>
+                  </li>
+                  <li class="social skill-social">
+                    <a href="#">Tailwind</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="about-skill">
+              <div class="skill-icon">
+                <img src="./assets/icon-skills.png" alt="Skills" />
+              </div>
+              <h3>Skills</h3>
+              <div class="work-tags">
+                <ul>
+                  <li class="social skill-social">
+                    <a href="#">RSpec</a>
+                  </li>
+                  <li class="social skill-social">
+                    <a href="#">TDD</a>
+                  </li>
+                  <li class="social skill-social">
+                    <a href="#">Gitflow</a>
+                  </li>
+                  <li class="social skill-social">
+                    <a href="#">Continous Integration</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="about-skill">
-            <div class="skill-icon">
-              <img src="./img/icon-frameworks.png" alt="Frameworks">
-            </div>
-            <h3>Frameworks</h3><br>
-            <div class="work-tags">
-              <ul class="work-tags">
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">BootStrap</a>
-                </li>
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">Ruby on Rails</a>
-                </li>
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">Capybara</a>
-                </li>
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">RSpec</a>
-                </li>
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">Selenium</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="about-skill">
-            <div class="skill-icon">
-              <img src="./img/icon-skills.png" alt="Skills">
-            </div>
-            <h3>Skills</h3><br>
-            <div class="work-tags">
-              <ul class="work-tags">
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">Github</a>
-                </li>
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">Capybara</a>
-                </li>
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">Terminal</a>
-                </li>
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">GitHub</a>
-                </li>
-                <li class="social skill-social">
-                  <a class="skill-icon-a" href="#">GitLab</a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <section class="contact">
-      <div class="contact-form-wrapper">
-        <div class="contact-text shimmer">
-          <h3 class="contact-text-h3">
-            I'm always interested in hearing about new projects, so if you'd
-            like to chat please get in touch.
-          </h3>
+      </section>
+      <!--Contact form section-->
+      <section class="contact">
+        <div class="contact-form-wrapper">
+          <div class="contact-text shimmer">
+            <h3>
+              I'm always interested in hearing about new projects, so if you'd
+              like to chat please get in touch.
+            </h3>
+          </div>
+          <form
+            action="https://formspree.io/f/xayknvgk"
+            method="POST"
+            class="contact-form form"
+            id="signup"
+          >
+            <fieldset>
+              <div class="form-field">
+                <label for="fullName"></label>
+                <input
+                  type="text"
+                  id="fullName"
+                  name="fullName"
+                  maxlength="30"
+                  placeholder="Full Name"
+                  required
+                />
+                <small></small>
+              </div>
+              <div class="form-field">
+                <label for="email"></label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email address"
+                  required
+                />
+                <small></small>
+              </div>
+              <div class="form-field">
+                <label for="message"></label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="5"
+                  maxlength="500"
+                  placeholder="Enter text here"
+                  required
+                ></textarea>
+                <small></small>
+              </div>
+            </fieldset>
+            <button type="submit" class="btn submit-btn">Get in touch</button>
+          </form>
         </div>
-        <form action="https://formspree.io/f/myyoweka" method="post" class="contact-form form" id="signup">
-          <fieldset>
-            <div class="form-field">
-              <label for="fullName"></label>
-              <input type="text" id="fullName" name="fullName" maxlength="30" placeholder="Full Name">
-              <small></small>
-            </div>
-            <div class="form-field">
-              <label for="email"></label>
-              <input type="email" name="email" id="email" placeholder="Email address" required>
-              <small></small>
-            </div>
-            <div class="form-field">
-              <label for="message"></label>
-              <textarea name="message" id="message" cols="30" rows="5" maxlength="500" placeholder="Enter text here"></textarea>
-              <small></small>
-            </div>
-          </fieldset>
-          <button type="submit" class="btn submit-btn">Get in touch</button>
-        </form>
-      </div>
-    </section>
+      </section>
+    </main>
+    <!--Footer section-->
     <footer class="footer" id="contact">
       <div class="footer-wrapper">
         <div class="socials">
-          <ul class="socials">
-            <li class="social-link"><a href="#"> <img src="img/twitter.svg" alt="twitter" /> </a></li>
-            <li class="social-link"><a href="#"> <img src="img/Linkedin.svg" alt="twitter" /> </a></li>
-            <li class="social-link"><a href="#"> <img src="img/medium.svg" alt="twitter" /> </a></li>
-            <li class="social-link"><a href="#"> <img src="img/github.svg" alt="twitter" /> </a></li>
-            <li class="social-link"><a href="#"> <img src="img/angellist.svg" alt="twitter" /> </a></li>
+          <ul>
+            <li class="social-link">
+              <a href="https://twitter.com/khanyaser007"
+                ><i class="fa fa-twitter footer-link"></i
+              ></a>
+            </li>
+            <li class="social-link">
+              <a href="https://www.linkedin.com/in/yasir-khan-398229195/"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li class="social-link">
+              <a href="#"><i class="fa-solid fa-m"></i></a>
+            </li>
+            <li class="social-link">
+              <a href="https://github.com/MYaserKhan"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li class="social-link">
+              <a href="#"><i class="fa-brands fa-angellist"></i></a>
+            </li>
           </ul>
         </div>
         <div class="contact-email">
-          <p class="contact-email-p">khanyaser007@gmail.com</p>
-          <img src="./img/Shape.png" alt="bottom bar" class="footer-image">
+          <p>khanyaser007@gmail.com</p>
+          <img src="./assets/Shape.png" alt="bottom bar" class="footer-image" />
         </div>
       </div>
     </footer>
-</body>
+  </body>
 </html>
