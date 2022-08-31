@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 - open a terminal
 - run `git@github.com:MYaserKhan/Portfolio.git`
-- run `cd Hello-world`
+- run `cd Portfolio`
 - open index.html
 
 ## Authors
