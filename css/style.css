@@ -99,6 +99,7 @@ main {
   cursor: pointer;
   visibility: hidden;
   opacity: 0;
+  transition: all 0.35s ease-in;
 }
 
 .modal-dialog {
@@ -130,6 +131,7 @@ header .modal {
   cursor: pointer;
   visibility: hidden;
   opacity: 0;
+  transition: all 0.35s ease-in;
 }
 
 .modal.is-visible {
@@ -284,6 +286,11 @@ header .close-modal {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   margin: 0 1em;
+}
+
+.work-tile:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
 }
 
 .work-image img {
@@ -524,6 +531,10 @@ header .close-modal {
   color: #172b4d;
 }
 
+.shimmer {
+  transition: transform 2s;
+}
+
 .shimmer:hover {
   transform: translate(10px);
 }
@@ -758,6 +769,7 @@ header .close-modal {
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
+    transition: all 0.35s ease-in;
   }
 
   .modal.is-visible {
