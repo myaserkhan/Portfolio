@@ -38,3 +38,10 @@ navLinks.forEach((elem) => {
     document.body.style.overflow = 'auto';
   });
 });
+// add event listener on a tags to close modal, enable scroll, and go to section ID
+navLinks.forEach((elem) => {
+  elem.addEventListener('click', () => {
+    document.querySelector('.modal.is-visible').classList.remove(isVisible);
+    document.body.style.overflow = 'auto';
+  });
+});
