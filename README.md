@@ -7,7 +7,7 @@
 
 ## Built With
 
-- HTML & CSS
+- HTML, CSS & Javascript
 - Lighthouse, Webhint, Stylelint
 
 ## Live Demo
