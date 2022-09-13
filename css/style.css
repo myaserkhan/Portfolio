@@ -375,7 +375,7 @@ header .close-modal {
 .modal-dialog .project-title h3 {
   color: #172b4d;
   font-weight: 600;
-  font-size: 3em;
+  font-size: 30px;
   line-height: 1.2em;
   padding-top: 0.5em;
   width: 80%;
@@ -407,7 +407,7 @@ header .close-modal {
 .modal-dialog .btn {
   width: 48%;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.03em;
   border-radius: 6px;
@@ -797,6 +797,7 @@ header .close-modal {
     font-size: 12px;
     padding: 6px;
     color: #67798e;
+    width: 28px;
   }
 
   .modal-dialog .work-image {
@@ -840,7 +841,7 @@ header .close-modal {
   .desktop-project-btn .btn {
     width: 48%;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.03em;
     border-radius: 6px;
