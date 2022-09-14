@@ -17,6 +17,7 @@ const showSuccess = (input) => {
   const error = formField.querySelector('small');
   error.textContent = '';
 };
+
 // Form validation functions
 const isRequired = (value) => {
   if (value === '') {
@@ -40,3 +41,13 @@ const checkEmail = () => {
   }
   return valid;
 };
+
+// Form event listener
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const isEmailValid = checkEmail();
+  const isFormValid = isEmailValid;
+  if (isFormValid) {
+    form.submit();
+  }
+});
