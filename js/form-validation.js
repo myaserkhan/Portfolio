@@ -17,3 +17,26 @@ const showSuccess = (input) => {
   const error = formField.querySelector('small');
   error.textContent = '';
 };
+// Form validation functions
+const isRequired = (value) => {
+  if (value === '') {
+    return false;
+  }
+  return true;
+};
+
+// Validate email
+const checkEmail = () => {
+  let valid = false;
+  const email = emailEl.value.trim();
+  const lower = email.toLowerCase();
+  if (!isRequired(email)) {
+    showError(emailEl, 'Email cannot be blank.');
+  } else if (lower !== email) {
+    showError(emailEl, 'Email must be lowercase');
+  } else {
+    showSuccess(emailEl);
+    valid = true;
+  }
+  return valid;
+};
