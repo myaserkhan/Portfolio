@@ -9,7 +9,7 @@ const project1 = {
   description:
     'Showcase your expertise to employers with exciting projects where you"ll build real-world applications and have your code reviewed by industry experts.',
   liveLink: 'https://myaserkhan.github.io/Path-to-JavaScript-Mastery/',
-  githubLink: 'https://myaserkhan.github.io/Path-to-JavaScript-Mastery/',
+  githubLink: 'https://github.com/MYaserKhan/Path-to-JavaScript-Mastery',
 };
 const project2 = {
   title: 'Keeping track of hundreds of components',
