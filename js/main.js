@@ -4,7 +4,7 @@ const project1 = {
   title: 'Keeping track of hundreds of components',
   id: 1,
   imageSrc:
-    '../assets/jsmastery.png',
+    './assets/jsmastery.png',
   technologies: ['html', 'CSS', 'Javascript', 'Bootstrap'],
   description:
     'Showcase your expertise to employers with exciting projects where you"ll build real-world applications and have your code reviewed by industry experts.',
