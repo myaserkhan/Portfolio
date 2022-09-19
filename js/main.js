@@ -1,7 +1,7 @@
 // array of project objects
 
 const project1 = {
-  title: 'Keeping track of hundreds of components',
+  title: 'Path to JavaScript Mastery web development',
   id: 1,
   imageSrc:
     './assets/jsmastery.png',
