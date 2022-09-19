@@ -4,12 +4,12 @@ const project1 = {
   title: 'Keeping track of hundreds of components',
   id: 1,
   imageSrc:
-    './assets/Desktop Snapshoot Portfolio.png',
+    '../assets/jsmastery.png',
   technologies: ['html', 'CSS', 'Javascript', 'Bootstrap'],
   description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  liveLink: 'https://myaserkhan.github.io/Portfolio/',
-  githubLink: 'https://github.com/MYaserKhan/Portfolio',
+    'Showcase your expertise to employers with exciting projects where you"ll build real-world applications and have your code reviewed by industry experts.',
+  liveLink: 'https://myaserkhan.github.io/Path-to-JavaScript-Mastery/',
+  githubLink: 'https://myaserkhan.github.io/Path-to-JavaScript-Mastery/',
 };
 const project2 = {
   title: 'Keeping track of hundreds of components',
