@@ -60,11 +60,11 @@ const project6 = {
   id: 6,
   imageSrc:
     './assets/amazona.jpg',
-  technologies: ['Javascript', 'Nodejs', 'React'],
+  technologies: ['Javascript', 'Nodejs', 'React', 'MongoDB'],
   description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  liveLink: 'https://myaserkhan.github.io/Portfolio/',
-  githubLink: 'https://github.com/MYaserKhan/Portfolio',
+    'Welcome to my React and Node website. I have build a fully-functional e-commerce website exactly like amazon.',
+  liveLink: 'https://amazona.onrender.com/',
+  githubLink: 'https://github.com/myaserkhan/MERN-E_Commerce',
 };
 const projects = [project1, project2, project3, project4, project5, project6];
 
