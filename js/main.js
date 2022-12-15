@@ -12,55 +12,55 @@ const project1 = {
   githubLink: 'https://github.com/MYaserKhan/Path-to-JavaScript-Mastery',
 };
 const project2 = {
-  title: 'Keeping track of hundreds of components',
+  title: 'SPACE TRAVELERS HUB',
   id: 2,
   imageSrc:
-    './assets/Desktop Snapshoot Portfolio.png',
-  technologies: ['html', 'SCSS', 'Javascript', 'React'],
+    './assets/travel.png',
+  technologies: ['React', 'Redux'],
   description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  liveLink: 'https://myaserkhan.github.io/Portfolio/',
-  githubLink: 'https://github.com/MYaserKhan/Portfolio',
+    'This educational project is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+  liveLink: 'https://strong-buttercream-e6fb08.netlify.app/',
+  githubLink: 'https://github.com/myaserkhan/React-Redux-Space-Travelers-Hub',
 };
 const project3 = {
-  title: 'Keeping track of hundreds of components',
+  title: 'POKEMON WEB APP',
   id: 3,
   imageSrc:
-    './assets/Desktop Snapshoot Portfolio.png',
-  technologies: ['Ruby', 'Jekyll', 'SCSS', 'Javascript'],
+    './assets/poke.png',
+  technologies: ['React', 'Redux'],
   description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  liveLink: 'https://myaserkhan.github.io/Portfolio/',
-  githubLink: 'https://github.com/MYaserKhan/Portfolio',
+    'This educational project is to build a mobile web application to check a list of metrics (numeric values) using React and Redux. An API is selected that provides numeric data about a topic and then build the web app around it.',
+  liveLink: 'https://teal-travesseiro-0a5b57.netlify.app/',
+  githubLink: 'https://github.com/myaserkhan/React-Capstone',
 };
 const project4 = {
-  title: 'Keeping track of hundreds of components',
+  title: 'Math-Magicians',
   id: 4,
   imageSrc:
-    './assets/Desktop Snapshoot Portfolio.png',
-  technologies: ['Bootstrap', 'css3', 'Ruby on Rails', 'Ruby'],
+    './assets/math.png',
+  technologies: ['html', 'css', 'React'],
   description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  liveLink: 'https://myaserkhan.github.io/Portfolio/',
-  githubLink: 'https://github.com/MYaserKhan/Portfolio',
+    'Math Magicians is a React calculator built with JavaScript and JSX. This applications allows you to do your basic computation and calculations easily.',
+  liveLink: 'https://636caee9a8434160d14233c5--fastidious-pegasus-fbdfa4.netlify.app/',
+  githubLink: 'https://github.com/myaserkhan/Math-Magicians',
 };
 const project5 = {
-  title: 'Keeping track of hundreds of components',
+  title: 'Bookstore',
   id: 5,
   imageSrc:
-    './assets/Desktop Snapshoot Portfolio.png',
-  technologies: ['html', 'css', 'React', 'Ruby on Rails', 'Ruby'],
+    './assets/space.png',
+  technologies: ['html', 'css', 'React'],
   description:
-    'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  liveLink: 'https://myaserkhan.github.io/Portfolio/',
-  githubLink: 'https://github.com/MYaserKhan/Portfolio',
+    'This is an educational project similar to the "Awesome Books" website. It is a MVP version of it that allows you to: Display a list of books, Add a book, Remove a selected book.',
+  liveLink: 'https://app-bookstore-cms.netlify.app/',
+  githubLink: 'https://github.com/myaserkhan/Bookstore-with-React',
 };
 const project6 = {
-  title: 'Keeping track of hundreds of components',
+  title: 'MERN-E_Commerce',
   id: 6,
   imageSrc:
-    './assets/Desktop Snapshoot Portfolio.png',
-  technologies: ['html', 'css', 'Javascript', 'Webpack'],
+    './assets/amazona.jpg',
+  technologies: ['Javascript', 'Nodejs', 'React'],
   description:
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
   liveLink: 'https://myaserkhan.github.io/Portfolio/',
