@@ -5,536 +5,334 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
-      property="og:image"
-      content="https://res.cloudinary.com/optprime/image/upload/v1652981548/project-screenshots/desktop_hgjhlw.png"
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/popup.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <!--Social Media Icons-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google tag (gtag.js) FOR GOOGLE ANALYTICS-->
     <script
-      src="https://kit.fontawesome.com/bc719f0ade.js"
-      crossorigin="anonymous"
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-GJJVXB4L13"
     ></script>
-    <title>Yasir Khan - Full stack developer</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-GJJVXB4L13");
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+      integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
+      integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
-  <body>
-    <!--Header section-->
-    <header class="top">
-      <nav class="web-nav">
-        <ul class="web-header-menu">
-          <li>
-            <a href="#portfolio" class="web-header-link">portfolio</a>
+
+  <body class="body">
+    <section class="firstpage">
+      <nav class="nav">
+        <p class="welcome">Welcome</p>
+        <a href="#"
+          ><img
+            class="hamburger"
+            src="./images/Union.png"
+            alt="hamburger menu drawer"
+        /></a>
+      </nav>
+
+      <div class="wrapper">
+        <ul class="header-mobile nav-items">
+          <li class="header-mobile-text item">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
           </li>
-          <li>
-            <a href="#about" class="web-header-link">about</a>
+          <li class="header-mobile-text item">
+            <a class="nav-link" href="#About">About</a>
           </li>
-          <li>
-            <a href="#contact" class="web-header-link">contact</a>
+          <li class="header-mobile-text item">
+            <a class="nav-link" href="#Contact">Contact</a>
           </li>
         </ul>
-      </nav>
-      <nav class="mobile-header-nav">
-        <a href="#" class="logo-text"><span>Welcome</span></a>
-        <ul class="mobile-header-menu">
-          <li class="menu">
-            <a href="#"
-              ><i
-                class="fa-solid fa-bars open-modal"
-                data-open="nav-modal"
-                id="mobile-menu"
-              ></i
-            ></a>
-          </li>
-        </ul>
-      </nav>
-      <div class="modal" id="nav-modal" data-animation="slideInOutLeft">
-        <div class="modal-dialog">
-          <button
-            type="button"
-            class="close-modal"
-            aria-label="close modal"
-            id="close-menu"
-            data-close
-          >
-            ✕
-          </button>
-          <ul class="modal-nav-links">
-            <li>
-              <a href="#portfolio" class="web-header-link">portfolio</a>
-            </li>
-            <li>
-              <a href="#about" class="web-header-link">about</a>
-            </li>
-            <li>
-              <a href="#contact" class="web-header-link">contact</a>
-            </li>
-          </ul>
+
+        <header class="header">
+          <div class="header-desktop" data-visible="false">
+            <div class="cross-icon">
+              <img src="./images/cross-icon.png" alt="cross-button" />
+            </div>
+
+            <ul class="popup-list">
+              <li id="portfolio" class="header-desktop-text abcd">
+                <a href="#">Portfolio</a>
+              </li>
+              <li id="about" class="header-desktop-text">
+                <a href="#About">About</a>
+              </li>
+              <li id="contact" class="header-desktop-text">
+                <a href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </header>
+        <div id="main-header">
+          <h1 class="head1 intro">
+            Hey there. I’m Yasir Khan
+            <span class="green-color">A Full-stack web developer</span>
+          </h1>
+          <p class="intro-exp">
+            With a background in developing efficient software applications in a
+            global market. More than
+            <span style="font-weight: bold">1300+ hours</span> of experience,
+            including mentoring
+            <span style="font-weight: bold">10+</span> junior developers to
+            achieve concrete goals on a strict deadline. Strong skills include
+            React, Redux, JavaScript, Node.js, Ruby on Rails, Figma, and
+            Animation Libraries!
+          </p>
+          <div class="bottom-img">
+            <ul class="group-icons">
+              <li>
+                <a href="https://twitter.com/khanyaser007"
+                  ><img src="./images/twitter.svg" alt="link to my twitter"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/myaserkhan/"
+                  ><img src="./images/linkdin.svg" alt="link to my linkedin"
+                /></a>
+              </li>
+              <li>
+                <a href="https://medium.com/@khanyaser007"
+                  ><img src="./images/medium.svg" alt="link to my medium"
+                /></a>
+              </li>
+              <li>
+                <a href="https://github.com/myaserkhan"
+                  ><img src="./images/github.svg" alt="link to my github"
+                /></a>
+              </li>
+              <li>
+                <a href="https://wellfound.com/u/yasir-khan-54"
+                  ><img src="./images/angellist.svg" alt="link to my angellist"
+                /></a>
+              </li>
+            </ul>
+            <div class="go-down-container">
+              <a class="go-down" href="#abc"
+                ><img src="./images/comedown.png" alt=""
+              /></a>
+            </div>
+          </div>
         </div>
-        <img
-          src="./assets/Shape.png"
-          alt="bottom bar"
-          class="modal-footer-image"
-        />
       </div>
-    </header>
-    <main class="wrapper">
-      <!--Hero section-->
-      <section class="content">
-        <div class="hero">
-          <div class="hero-content">
-            <h1>
-              Hey there. I'm Yasir <br />
-              <span>I'm a software developer</span>
-            </h1>
-            <p class="shimmer">
-              I can help you build a product , feature or website Look through
-              some of my work and experience! If you like what you see and have
-              a project you need coded, don't hestiate to contact me.
-            </p>
-            <div class="socials">
-              <ul>
-                <li class="social-link">
-                  <a href="https://twitter.com/khanyaser007"
-                    ><i class="fa fa-twitter"></i
-                  ></a>
-                </li>
-                <li class="social-link">
-                  <a href="https://www.linkedin.com/in/yasir-khan-398229195/"
-                    ><i class="fa-brands fa-linkedin-in"></i
-                  ></a>
-                </li>
-                <li class="social-link">
-                  <a href="#"><i class="fa-solid fa-m"></i></a>
-                </li>
-                <li class="social-link">
-                  <a href="https://github.com/MYaserKhan"
-                    ><i class="fa fa-github"></i
-                  ></a>
-                </li>
-                <li class="social-link">
-                  <a href="#"><i class="fa-brands fa-angellist"></i></a>
-                </li>
-              </ul>
-            </div>
-            <div class="action">
-              <a href="#portfolio"><i class="fa-solid fa-chevron-down"></i></a>
-            </div>
+    </section>
+
+    <section class="projects">
+      <div id="Portfolio" class="recent container">
+        <h2 id="abc">
+          My Recent <br />
+          Works
+        </h2>
+        <img src="./images/line.png" alt="" />
+      </div>
+      <div class="grid container"></div>
+
+      <div class="aboutme" id="About">
+        <h2 class="myself">About me</h2>
+        <p class="exp">
+          I've spent much time completely immersed in remote development,
+          building everything from landing pages to using APIs. I got 95% marks
+          in my school and at the college level which was very close to the boy
+          who stood first in the whole of the country and it shows my ability to
+          work smart, and in challenging times to achieve my goals. I am
+          convinced of the formula for doing work way before, not on time. I've
+          spent the last several months working remotely and asynchronously with
+          people across 3 different time zones
+          <span style="font-weight: bold">(UTC-6, UTC+1, UTC+5)</span> which
+          makes me way special.
+        </p>
+        <a
+          href="./images/project_images/Yasir_Resume.pdf"
+          target="_blank"
+          class="resume-button"
+          >Get My Resume</a
+        >
+      </div>
+
+      <div class="container" id="langs">
+        <div class="grid">
+          <div class="languages center">
+            <img
+              class="lang-icon"
+              src="./images/group-icon.png"
+              alt="my specialized languages"
+            />
+            <h3 class="lang-heading">Front-end</h3>
+            <ul class="lang-list mr-LR mr-B">
+              <li class="langs-name">React</li>
+              <li class="langs-name">Redux</li>
+              <li class="langs-name">JavaScript</li>
+              <li class="langs-name">html</li>
+              <li class="langs-name">CSS</li>
+              <li class="langs-name">Figma</li>
+              <li class="langs-name">GreenSock etc</li>
+            </ul>
+          </div>
+
+          <div class="languages center">
+            <img
+              class="lang-icon"
+              src="./images/fricon.png"
+              alt="my specialized Frameworks"
+            />
+            <h3 class="lang-heading">Back-end and Testing</h3>
+            <ul class="lang-list mr-LR">
+              <li class="langs-name">Ruby on rails</li>
+              <li class="langs-name">PostgreSQL</li>
+              <li class="langs-name">Ruby</li>
+              <li class="langs-name">RSpec</li>
+              <li class="langs-name">Jest</li>
+              <li class="langs-name">MongoDB</li>
+              <li class="langs-name">Node.js</li>
+              <li class="langs-name">Mocha</li>
+            </ul>
+          </div>
+
+          <div class="languages center">
+            <img
+              class="lang-icon"
+              src="./images/skill-icon.png"
+              alt="skills i have mastered"
+            />
+            <h3 class="lang-heading">Other Professional Skills</h3>
+            <ul class="lang-list">
+              <li class="langs-name">Git, GitHub</li>
+              <li class="langs-name">Render, Netlify</li>
+              <li class="langs-name">Remote Pair-Programming</li>
+              <li class="langs-name">Mentoring, Teamwork</li>
+              <li class="langs-name">Dev Tools</li>
+            </ul>
           </div>
         </div>
-      </section>
-      <!--Works section-->
-      <section class="works" id="portfolio">
-        <div class="projects-wrapper">
-          <div class="works-header">
-            <h1>My Recent Projects</h1>
-            <img src="./assets/Indicator.png" alt="Recent projects indicator" />
-          </div>
-          <div class="works-wrapper">
-            <div class="work-tile">
-              <div class="work-image">
-                <img src="assets/amazona.jpg" alt="My first project" />
-              </div>
-              <div class="work-content">
-                <div class="work-title">
-                  <h3>MERN-E_Commerce</h3>
-                </div>
-                <div class="work-tags">
-                  <ul>
-                    <li class="social">
-                      <a href="#">html</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">css</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">Javascript</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">ReactJS</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="work-button">
-                  <button
-                    onclick="modal(5)"
-                    class="btn open-modal"
-                    data-open="project6"
-                    type="button"
-                  >
-                    See Project
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="work-tile">
-              <div class="work-image">
-                <img src="assets/jsmastery.png" alt="JS mastery web dev" />
-              </div>
-              <div class="work-content">
-                <div class="work-title">
-                  <h3>Path to JavaScript Mastery web development</h3>
-                </div>
-                <div class="work-tags">
-                  <ul>
-                    <li class="social">
-                      <a href="#">HTML</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">CSS</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">Javascript</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">Bootstrap</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="work-button">
-                  <button
-                    onclick="modal(0)"
-                    class="btn open-modal"
-                    data-open="project1"
-                    type="button"
-                  >
-                    See Project
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="work-tile">
-              <div class="work-image">
-                <img src="assets/math.png" alt="Recipes project" />
-              </div>
-              <div class="work-content">
-                <div class="work-title">
-                  <h3>Math-Magicians</h3>
-                </div>
-                <div class="work-tags">
-                  <ul>
-                    <li class="social">
-                      <a href="#">Bootstrap</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">ReactJS</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">HTML</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">CSS</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="work-button">
-                  <button
-                    onclick="modal(3)"
-                    class="btn open-modal"
-                    data-open="project4"
-                    type="button"
-                  >
-                    See Project
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="work-tile">
-              <div class="work-image">
-                <img src="assets/travel.png" alt="React Personal Profile" />
-              </div>
-              <div class="work-content">
-                <div class="work-title">
-                  <h3>SPACE TRAVELERS HUB</h3>
-                </div>
-                <div class="work-tags">
-                  <ul>
-                    <li class="social">
-                      <a href="#">React</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">Redux</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">Javascript</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">CSS</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="work-button">
-                  <button
-                    onclick="modal(1)"
-                    class="btn open-modal"
-                    data-open="project2"
-                    type="button"
-                  >
-                    See Project
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="work-tile">
-              <div class="work-image">
-                <img src="assets/poke.png" alt="F1 Sustainability Summit" />
-              </div>
-              <div class="work-content">
-                <div class="work-title">
-                  <h3>POKEMON WEB APP</h3>
-                </div>
-                <div class="work-tags">
-                  <ul>
-                    <li class="social">
-                      <a href="#">html</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">CSS</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">ReactJS</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">Redux</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="work-button">
-                  <button
-                    onclick="modal(2)"
-                    class="btn open-modal"
-                    data-open="project3"
-                    type="button"
-                  >
-                    See Project
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="work-tile">
-              <div class="work-image">
-                <img src="assets/space.png" alt="My first project" />
-              </div>
-              <div class="work-content">
-                <div class="work-title">
-                  <h3>Bookstore</h3>
-                </div>
-                <div class="work-tags">
-                  <ul>
-                    <li class="social">
-                      <a href="#">html</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">SCSS</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">ReactJS</a>
-                    </li>
-                    <li class="social">
-                      <a href="#">Rails</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="work-button">
-                  <button
-                    onclick="modal(4)"
-                    class="btn open-modal"
-                    data-open="project5"
-                    type="button"
-                  >
-                    See Project
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--About me section-->
-      <section class="about" id="about">
-        <div class="about-wrapper">
-          <div class="about-content">
-            <h2>About me</h2>
-            <p class="shimmer">
-              I can help you build a product, feature, or website Look through
-              some of my work and experience! If you like what you see and have
-              a project you need coded, don't hestiate to contact me.
-            </p>
-            <button class="btn my-resume" type="button">Get my resume</button>
-          </div>
-          <div class="about-skills-wrapper">
-            <div class="about-skill">
-              <div class="skill-icon">
-                <img src="./assets/icon-languages.png" alt="Languages" />
-              </div>
-              <h3>Languages</h3>
-              <div class="work-tags">
-                <ul>
-                  <li class="social skill-social">
-                    <a href="#">HTML</a>
-                  </li>
-                  <li class="social skill-social">
-                    <a href="#">Ruby</a>
-                  </li>
-                  <li class="social skill-social">
-                    <a href="#">Javascript</a>
-                  </li>
-                  <li class="social skill-social">
-                    <a href="#">Typescript</a>
-                  </li>
-                  <li class="social skill-social">
-                    <a href="#">CSS</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="about-skill">
-              <div class="skill-icon">
-                <img src="./assets/icon-frameworks.png" alt="Frameworks" />
-              </div>
-              <h3>Frameworks</h3>
-              <div class="work-tags">
-                <ul>
-                  <li class="social skill-social">
-                    <a href="#">NodeJS</a>
-                  </li>
-                  <li class="social skill-social">
-                    <a href="#">Ruby on Rails</a>
-                  </li>
-                  <li class="social skill-social">
-                    <a href="#">ReactJS</a>
-                  </li>
-                  <li class="social skill-social">
-                    <a href="#">Tailwind</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="about-skill">
-              <div class="skill-icon">
-                <img src="./assets/icon-skills.png" alt="Skills" />
-              </div>
-              <h3>Skills</h3>
-              <div class="work-tags">
-                <ul>
-                  <li class="social skill-social">
-                    <a href="#">RSpec</a>
-                  </li>
-                  <li class="social skill-social">
-                    <a href="#">TDD</a>
-                  </li>
-                  <li class="social skill-social">
-                    <a href="#">Gitflow</a>
-                  </li>
-                  <li class="social skill-social">
-                    <a href="#">Continous Integration</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Contact form section-->
-      <section class="contact">
-        <div class="contact-form-wrapper">
-          <div class="contact-text shimmer">
-            <h3>
+      </div>
+      <footer class="footer">
+        <div class="lastpage container">
+          <div class="conclusion-text center">
+            <p>
               I'm always interested in hearing about new projects, so if you'd
               like to chat please get in touch.
-            </h3>
+            </p>
           </div>
           <form
+            id="Contact"
+            class="contact"
             action="https://formspree.io/f/xayknvgk"
-            method="POST"
-            class="contact-form form"
-            id="signup"
+            method="post"
           >
-            <fieldset>
-              <div class="form-field">
-                <label for="fullName"></label>
-                <input
-                  type="text"
-                  id="fullName"
-                  name="fullName"
-                  maxlength="30"
-                  placeholder="Full Name"
-                  required
-                />
-                <small></small>
-              </div>
-              <div class="form-field">
-                <label for="email"></label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Email address"
-                  required
-                />
-                <small></small>
-              </div>
-              <div class="form-field">
-                <label for="message"></label>
-                <textarea
-                  name="message"
-                  id="message"
-                  cols="30"
-                  rows="5"
-                  maxlength="500"
-                  placeholder="Enter text here"
-                  required
-                ></textarea>
-                <small></small>
-              </div>
-            </fieldset>
-            <button type="submit" class="btn submit-btn">Get in touch</button>
+            <label for="full-name"></label>
+            <input
+              title="type your full name"
+              class="info"
+              id="full-name"
+              name="Name"
+              type="text"
+              placeholder="Full name"
+              maxlength="30"
+              required
+            />
+
+            <label for="email-address"></label>
+            <input
+              title="type your email address"
+              id="email-address"
+              class="info"
+              name="Email"
+              type="email"
+              placeholder="Email address"
+              required
+            />
+
+            <label for="text"></label>
+            <textarea
+              class="textarea"
+              id="text"
+              name="Text"
+              cols="30"
+              rows="10"
+              maxlength="500"
+              placeholder="Enter text area"
+              required
+            ></textarea>
+
+            <button class="resume-button contact-btn" type="submit">
+              Get in touch
+            </button>
+            <div class="error hide">
+              <p class="error-message"></p>
+            </div>
           </form>
         </div>
-      </section>
-    </main>
-    <!--Footer section-->
-    <footer class="footer" id="contact">
-      <div class="footer-wrapper">
-        <div class="socials">
-          <ul>
-            <li class="social-link">
-              <a href="https://twitter.com/khanyaser007"
-                ><i class="fa fa-twitter footer-link"></i
-              ></a>
-            </li>
-            <li class="social-link">
-              <a href="https://www.linkedin.com/in/yasir-khan-398229195/"
-                ><i class="fa-brands fa-linkedin-in"></i
-              ></a>
-            </li>
-            <li class="social-link">
-              <a href="#"><i class="fa-solid fa-m"></i></a>
-            </li>
-            <li class="social-link">
-              <a href="https://github.com/MYaserKhan"
-                ><i class="fa fa-github"></i
-              ></a>
-            </li>
-            <li class="social-link">
-              <a href="https://angel.co/u/yasir-khan-54"
-                ><i class="fa-brands fa-angellist"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-        <div class="contact-email">
-          <p>khanyaser007@gmail.com</p>
-          <img src="./assets/Shape.png" alt="bottom bar" class="footer-image" />
-        </div>
-      </div>
-    </footer>
-    <script src="./js/main.js"></script>
-    <script src="./js/form-validation.js"></script>
+        <ul class="contact-lists">
+          <li>
+            <a href="https://twitter.com/khanyaser007"
+              ><img src="./images/twitter.svg" alt="link to my twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/myaserkhan/"
+              ><img src="./images/linkdin.svg" alt="link to my linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="https://medium.com/@khanyaser007"
+              ><img src="./images/medium.svg" alt="link to my medium"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/myaserkhan"
+              ><img src="./images/github.svg" alt="link to my github"
+            /></a>
+          </li>
+          <li>
+            <a href="https://wellfound.com/u/yasir-khan-54"
+              ><img src="./images/angellist.svg" alt="link to my angellist"
+            /></a>
+          </li>
+        </ul>
+        <p class="email">khanyaser007@gmail.com</p>
+      </footer>
+    </section>
+
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/form-validation.js" type="module"></script>
+    <script src="./js/animate.js" type="module" async></script>
+    <!-- <script src="./js/animate.js" defer></script> -->
   </body>
 </html>
