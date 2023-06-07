@@ -9,30 +9,30 @@ const projects = [
   },
 
   {
-    title: 'SPACE TRAVELERS HUB',
-    description: 'This educational project is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    title: 'Web3 Crowdfunding Blockchain App',
+    description: 'With a stunning design, connected to the blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, and writing solidity code.',
     imageUrl: './images/project_images/travel.png',
-    technologies: ['React', 'Redux', 'CSS', 'Jest'],
-    liveVersion: 'https://strong-buttercream-e6fb08.netlify.app/',
-    source: 'https://github.com/myaserkhan/React-Redux-Space-Travelers-Hub',
+    technologies: ['React', 'Thirdweb', 'Solidity', 'Tailwind'],
+    liveVersion: '',
+    source: 'https://github.com/myaserkhan/Web3-Crowdfunding-Blockchain-App',
   },
 
   {
-    title: 'POKEMON WEB APP',
-    description: 'This educational project is to build a mobile web application to check a list of metrics (numeric values) using React and Redux. An API is selected that provides numeric data about a topic and then build the web app around it.',
+    title: 'Promptopia',
+    description: 'Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts.',
     imageUrl: './images/project_images/poke.png',
-    technologies: ['React', 'Redux', 'Jest', 'JavaScript'],
-    liveVersion: 'https://teal-travesseiro-0a5b57.netlify.app/',
-    source: 'https://github.com/myaserkhan/React-Capstone',
+    technologies: ['React', 'Next.js', 'MongoDB', 'Tailwind'],
+    liveVersion: 'https://next-13-ai-prompt-sharing.vercel.app/',
+    source: 'https://github.com/myaserkhan/next_13_ai_prompt_sharing',
   },
 
   {
-    title: 'Math Magicians',
-    description: 'Math Magicians is a React calculator built with JavaScript and JSX. This applications allows you to do your basic computation and calculations easily.',
-    imageUrl: './images/project_images/math.png',
-    technologies: ['Ruby on Rails', 'JavaScript', 'CSS', 'Html'],
-    liveVersion: 'https://636caee9a8434160d14233c5--fastidious-pegasus-fbdfa4.netlify.app/',
-    source: 'https://github.com/myaserkhan/Math-Magicians',
+    title: 'E-Commerce Sanity Stripe',
+    description: 'Modern Full Stack ECommerce Application with Stripe.',
+    imageUrl: './images/project_images/Blank.png',
+    technologies: ['Next.js', 'Sanity.io', 'CSS', 'Html'],
+    liveVersion: 'https://ecommerce-sanity-stripe.vercel.app/',
+    source: 'https://github.com/myaserkhan/ecommerce_sanity_stripe',
   },
 
   {
