@@ -3,9 +3,18 @@ const projects = [
     title: 'Path to JS Mastery web dev',
     description: 'Showcase your expertise to employers with exciting projects where you"ll build real-world applications and have your code reviewed by industry experts.',
     imageUrl: './images/project_images/jsmastery.png',
-    technologies: ['html', 'CSS', 'Javascript', 'Bootstrap'],
+    technologies: ['HTML', 'CSS', 'Javascript', 'Bootstrap'],
     liveVersion: 'https://myaserkhan.github.io/Path-to-JavaScript-Mastery/',
     source: 'https://github.com/MYaserKhan/Path-to-JavaScript-Mastery',
+  },
+
+  {
+    title: 'Next13 Car Showcase',
+    description: 'Next13_car_showcase transforms web development with Next.js 13 rapid App Router and Server-side Rendering, ensuring seamless navigation. Enhanced by intuitive filters, optimized metadata, and custom interactive elements, it offers an efficient and engaging user experience.',
+    imageUrl: './images/project_images/car_showcase.png',
+    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind'],
+    liveVersion: 'https://next13-car-showcase-omega.vercel.app/',
+    source: 'https://github.com/myaserkhan/next13_car_showcase',
   },
 
   {
