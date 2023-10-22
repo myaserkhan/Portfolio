@@ -1,4 +1,14 @@
 const projects = [
+
+  {
+    title: 'PriceWise',
+    description: 'Your Amazon price tracking solution. Scrape, store, and notify. User-friendly interface.',
+    imageUrl: './images/project_images/price.png',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind'],
+    liveVersion: 'https://pricewise-n3k9wqfel-myk.vercel.app/',
+    source: 'https://github.com/myaserkhan/Pricewise',
+  },
+
   {
     title: 'Path to JS Mastery web dev',
     description: 'Showcase your expertise to employers with exciting projects where you"ll build real-world applications and have your code reviewed by industry experts.',
@@ -39,7 +49,7 @@ const projects = [
     title: 'E-Commerce Sanity Stripe',
     description: 'Modern Full Stack ECommerce Application with Stripe.',
     imageUrl: './images/project_images/Blank.png',
-    technologies: ['Next.js', 'Sanity.io', 'CSS', 'Html'],
+    technologies: ['Next.js', 'Sanity.io', 'CSS', 'HTML'],
     liveVersion: 'https://ecommerce-sanity-stripe.vercel.app/',
     source: 'https://github.com/myaserkhan/ecommerce_sanity_stripe',
   },
@@ -55,7 +65,7 @@ const projects = [
 
   {
     title: 'MERN E-Commerce',
-    description: 'In this project I am creating a Single Page App using React regarding basic Calculator and its functionalities.',
+    description: 'MERN Ecommerce is a fully-functional e-commerce website exactly like amazon.',
     imageUrl: './images/project_images/amazona.jpg',
     technologies: ['React', 'Node.js', 'CSS', 'JSX'],
     liveVersion: 'https://amazona.onrender.com/',
